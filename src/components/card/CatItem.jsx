@@ -2,7 +2,7 @@ import { Card, Col, Image, Row } from 'antd';
 import Paragraph from 'antd/es/typography/Paragraph';
 import React from 'react';
 
-function CatItem( { itemProp } ) {
+function CatItem({itemProp}) {
     return (
         <Card  bordered={false} style={{ marginBottom: "20px" }}>
             <Row gutter={16} style={{display:"flex"}}>

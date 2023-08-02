@@ -18,7 +18,7 @@ const Navbar = () => (
         }}
     >
         <div className="demo-logo">
-            <img width="100px" height="70px" src={logo} alt="catshow" />
+            <img width="100px" height="70px" src={logo}/>
         </div>
         <Menu mode="horizontal"  style={{ lineHeight: '64px', width: '100%' }}>
             <Menu.Item key="home">

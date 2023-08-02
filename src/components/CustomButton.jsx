@@ -1,6 +1,6 @@
 import { Button } from "antd";
 
-function CustomButton( props ) {
+function CustomButton(props) {
     const { handleClickProp,titleProp } = props
     return (
         <Button
