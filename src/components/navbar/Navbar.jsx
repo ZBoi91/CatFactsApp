@@ -17,12 +17,15 @@ const Navbar = () => (
             borderBottom: "1px solid rgb(222, 217, 217)"
         }}
     >
-        <div className="demo-logo" >
+        <div className="demo-logo">
             <img width="100px" height="70px" src={logo} alt="catshow" />
         </div>
         <Menu mode="horizontal"  style={{ lineHeight: '64px', width: '100%' }}>
             <Menu.Item key="home">
                 <Link to="/">Home</Link>
+            </Menu.Item>
+            <Menu.Item key="Facts">
+                <Link to="/Facts">Facts</Link>
             </Menu.Item>
         </Menu>
     </Header>
