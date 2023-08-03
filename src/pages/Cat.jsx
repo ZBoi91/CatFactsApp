@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Cats from '../components/card/Cards';
+import Cats from '../components/card/Cats';
 import { Layout, Row } from 'antd';
 import { Content } from 'antd/es/layout/layout';
 import Navbar from '../components/navbar/Navbar';
+import FooterComponent from '../components/FooterComponent';
 
 const Cat = () => {
     const [data, setData] = useState( [] )
@@ -26,6 +27,7 @@ const Cat = () => {
                     <Cats dataProp={data}/>
                 </Row>
             </Content>
+            <FooterComponent/>
         </Layout>
     );
 }

@@ -1,15 +1,30 @@
 import { Col, Image, Layout, Row } from 'antd'
 import { Content } from 'antd/es/layout/layout'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Paragraph from 'antd/es/typography/Paragraph'
 import Title from 'antd/es/typography/Title'
-import Cat from '../assets/home-cat.jpg'
 import { useNavigate } from 'react-router-dom'
 import CustomButton from '../components/CustomButton'
-
+import FooterComponent from '../components/FooterComponent'
 
 const Home = () => {
+    const [image, setImage] = useState( "" )
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await fetch("https://cataas.com/cat");
+            if (!response.ok) { 
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const blob = await response.blob();
+            const imageUrl = URL.createObjectURL(blob);
+            setImage(imageUrl);
+        };
+    
+        fetchData().catch(error => {
+            console.error('There has been a problem with your fetch operation:', error);
+        });
+    }, []);
     const navigate = useNavigate();
     const handleClick = () => {
         navigate( "/facts" )
@@ -32,11 +47,13 @@ const Home = () => {
                     <Col lg={12}>
                         <Image
                             width={"100%"}
-                            src={Cat}
+                            src={image}
+                            height={"400px"}
                         />
                     </Col>
                 </Row>
             </Content>
+            <FooterComponent/>
         </Layout>
 
     )

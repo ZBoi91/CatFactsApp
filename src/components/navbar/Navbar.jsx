@@ -18,7 +18,9 @@ const Navbar = () => (
         }}
     >
         <div className="demo-logo">
+        <Link to="/">
             <img width="100px" height="70px" src={logo}/>
+            </Link>
         </div>
         <Menu mode="horizontal"  style={{ lineHeight: '64px', width: '100%' }}>
             <Menu.Item key="home">
