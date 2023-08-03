@@ -19,6 +19,7 @@ function CatItem({itemProp}) {
             console.error('There has been a problem with your fetch operation:', error);
         });
     }, []);
+    
     return ( 
     <Card  bordered={false} style={{ marginBottom: "20px" }}>
             <Row gutter={16} style={{display:"flex"}}>

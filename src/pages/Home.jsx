@@ -27,6 +27,7 @@ const Home = () => {
     }, []);
     const navigate = useNavigate();
     const handleClick = () => {
+        // console.log('hi==');
         navigate( "/facts" )
     }
     return (
@@ -36,9 +37,9 @@ const Home = () => {
             <Content className="site-layout" style={{ padding: '0 50px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
                 <Row style={{ textAlign: 'center', display: "flex" }} >
                     <Col lg={12} sm={24} style={{ marginTop: "100px" }}>
-                        <Title level={2}>Welcome to Cat Facts!</Title>
+                        <Title level={2}>Welcome to Catto Facto!</Title>
                         <Paragraph>
-                            Here, you'll find all sorts of interesting facts about cats. From their behavior to their history, we cover it all. Get ready to explore the fascinating world of cats!
+                            Cats are fascinating and independent creatures, known for their graceful movements, sharp senses, and enigmatic personalities. With sleek fur and captivating eyes, they exude an air of mystery and wisdom, often displaying a mix of playfulness and aloofness. Cats have a long history of companionship with humans, forming strong bonds with those they trust while maintaining their innate sense of self-reliance. Revered in various cultures, these creatures add wonder and enchantment to our lives, whether as cherished pets in homes or skilled hunters in rural settings, embodying the intriguing balance between untamed wilderness and domestic serenity.
                         </Paragraph>
                         <CustomButton 
                         titleProp={"Discover More"}
