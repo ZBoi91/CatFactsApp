@@ -7,7 +7,7 @@ function FooterComponent() {
             <Paragraph
                 style={{ cursor: "pointer" }}
                 onClick={() => { window.location.href = "https://www.google.com" }}
-            >If you don't like cats but like dogs instead, click here!</Paragraph>
+            >If you like dogs instead, click here!</Paragraph>
         </Row>
     );
 }
