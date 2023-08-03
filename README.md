@@ -1,4 +1,4 @@
-**CATTO-FACTO**
+# **CATTO-FACTO**
 
 If you like cats, this is the site for you!
 Just click to learn a thing or two about your favourite feline friends!
@@ -9,6 +9,7 @@ Refresh or wait to see randomized cat pictures!
 
 ![Image](https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=1.00xw:0.753xh;0,0.153xh&resize=1200:*)
 
+If you prefer dogs, we have a link to another site for you to enjoy!
 
 <!-- # Getting Started with Create React App
 
