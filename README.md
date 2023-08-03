@@ -5,7 +5,7 @@ Just click to learn a thing or two about your favourite feline friends!
 
 ![Image](https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg)
 
-Refresh or wait to see randomized cat pictures!
+Refresh to see randomized cat pictures!
 
 ![Image](https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=1.00xw:0.753xh;0,0.153xh&resize=1200:*)
 
