@@ -11,6 +11,11 @@ Refresh to see randomized cat pictures!
 
 If you prefer dogs, we have a link to another site for you to enjoy!
 
+APIs used:
+https://cat-fact.herokuapp.com/#/
+https://cataas.com/cat
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
